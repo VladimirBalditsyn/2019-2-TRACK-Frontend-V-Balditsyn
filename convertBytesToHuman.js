@@ -6,8 +6,7 @@
  * и класса (например, отрицательные числа)
  */
 
- export default
-function convertBytesToHuman(bytes) {
+export default function convertBytesToHuman(bytes) {
   if ( !(Number.isInteger(bytes)) || bytes < 0) {
     return false;
   }

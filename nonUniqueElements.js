@@ -25,9 +25,7 @@ nonUniqueElements([10, 9, 10, 10, 9, 8]) == [10, 9, 10, 10, 9]
  */
 import MultiSet from "mnemonist/multi-set";
 
-export default
-
-function nonUniqueElements(data) {
+export default function nonUniqueElements(data) {
   
   let unique_elements = new MultiSet();
   let answer = [];
